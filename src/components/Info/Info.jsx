@@ -22,7 +22,7 @@ const Info = () => {
 
     return (
         <div className="info">
-			<a className="info__item" href="#">
+			<a className="info__item" href="https://github.com/bjornfas/react-timer">
 				<GitHub className="info__icon" size={30}/>
 			</a>
 			<div className="info__item" onClick={handleTheme}>
