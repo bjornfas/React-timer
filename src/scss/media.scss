@@ -1,0 +1,32 @@
+@media (max-width: 475px) {
+    .info {
+        justify-content: center;
+    }
+    .counter__value {
+        font-size: 30px;
+        padding: 0px 15px;
+    }
+    .counter {
+        justify-content: center;
+    }
+    .counter__item {
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .btn {
+        min-width: 0;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .timer__btns {
+        justify-content: center;
+    }
+    .timer__btn {
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
