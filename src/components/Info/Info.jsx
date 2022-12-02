@@ -1,8 +1,7 @@
 //Feather
 import { GitHub, Moon, Sun } from 'react-feather';
 
-//Custom hooks
-import useTheme from "../../hooks/useTheme";
+import { useState } from 'react';
 
 // Styles
 import "./info.scss";
@@ -10,13 +9,17 @@ import "./info.scss";
 
 const Info = () => {
 
-	const {theme, setTheme} = useTheme();
+	const [theme, setTheme] = useState(localStorage.getItem("app-theme") || "light");
+
+	document.documentElement.setAttribute("data-theme", theme);
 
 	const handleTheme = () => {
-		if (theme === "light") {
+        if (theme === "light") {
 			setTheme("dark");
+			localStorage.setItem("app-theme", "dark");
 		} else {
 			setTheme("light");
+			localStorage.setItem("app-theme", "light");
 		}
 	}
 
