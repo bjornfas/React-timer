@@ -21,6 +21,21 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  &__btn {
+    padding: 8px 32px;
+    border: 1px solid #D1D1D1;
+    text-align: center;
+    &--green {
+      background-color: $btn-green;
+      border: 1px solid $btn-green;
+      color: #fff;
+    }
+    &--red {
+        background-color: $btn-red;
+        border: 1px solid $btn-red;
+        color: #fff;
+    }
+  }
 }
 
 .counter {

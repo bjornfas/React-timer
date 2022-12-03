@@ -76,14 +76,11 @@ body {
 
 .btn {
   cursor: pointer;
-  padding: 8px 32px;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
   color: #000;
   font-weight: 400;
-  border: 1px solid #D1D1D1;
-  text-align: center;
   transition: .3s all;
   @include btn;
   &:hover {
@@ -91,25 +88,5 @@ body {
   }
 }
 
-.btn-green {
-  background-color: $btn-green;
-  border: 1px solid $btn-green;
-  color: #fff;
-}
-
-.btn-red {
-  background-color: $btn-red;
-  border: 1px solid $btn-red;
-  color: #fff;
-}
-
-
-//Media 
-@media (max-width: 475px) {
-  .btn {
-      min-width: 0;
-      padding: 8px;
-      font-size: 14px;
-  }
-}
-
+//Media
+@import "media";

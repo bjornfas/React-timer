@@ -63,9 +63,9 @@ const Timer = () => {
                 </div>
             </div>
             <div className="timer__btns">
-                <button onClick={()=> setTimer(true)} className="timer__btn btn-green btn">Start</button>
-                <button onClick={()=> setTimer(false)} className="timer__btn btn">Pause</button>
-                <button onClick={onReset} className="timer__btn btn-red btn">Reset</button>
+                <button onClick={()=> setTimer(true)} className="btn timer__btn timer__btn--green">Start</button>
+                <button onClick={()=> setTimer(false)} className="btn timer__btn">Pause</button>
+                <button onClick={onReset} className="btn timer__btn timer__btn--red">Reset</button>
             </div>
 		</div>
     )

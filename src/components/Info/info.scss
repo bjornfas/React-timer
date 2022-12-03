@@ -1,11 +1,14 @@
 
 @import "../../scss/variable";
 
-.info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 20px;
+.page__info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.info { 
     &__item {
       padding: 10px 10px 5px 10px;
       background: var(--bg-icon);

@@ -24,7 +24,7 @@ const Info = () => {
 	}
 
     return (
-        <div className="info">
+        <div className="info page__info">
 			<a className="info__item" href="https://github.com/bjornfas/react-timer">
 				<GitHub className="info__icon" size={30}/>
 			</a>

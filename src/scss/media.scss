@@ -1,5 +1,5 @@
 @media (max-width: 475px) {
-    .info {
+    .page__info {
         justify-content: center;
     }
     .counter__value {
@@ -15,16 +15,14 @@
             margin-right: 0;
         }
     }
-    .btn {
-        min-width: 0;
-        padding: 8px;
-        font-size: 14px;
-    }
     .timer__btns {
         justify-content: center;
     }
     .timer__btn {
         margin-right: 10px;
+        min-width: 0;
+        padding: 8px;
+        font-size: 14px;
         &:last-child {
             margin-right: 0;
         }
